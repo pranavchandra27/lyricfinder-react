@@ -1,14 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import Index from './Component/layout/Index'
-import './App.css';
+import React from "react";
+import Index from "./Component/layout/Index";
 
 function App() {
   return (
     <div className="App">
       <Index />
     </div>
-    );  
-  }
+  );
+}
 
-  export default App;
+export default App;
