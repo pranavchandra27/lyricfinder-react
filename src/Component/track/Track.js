@@ -12,9 +12,11 @@ export default function Track(props) {
           </h5>
           <hr />
           <p>
+            <i className="fas fa-user mr-2"></i>
             <strong>Artist</strong>: {track.artist_name}
           </p>
           <p>
+            <i className="fas fa-compact-disc mr-2"></i>
             <strong>Album</strong>: {track.album_name}
           </p>
           <Link
