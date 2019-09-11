@@ -14,7 +14,7 @@ class Search extends Component {
 
   render() {
     return (
-      <div className=" jumbotron bg-info py-5 text-white text-center my-3">
+      <div className=" jumbotron bg-dark text-white py-5 text-center my-3">
         <h1 className="display-3">
           <i className=" mr-3 fas fa-headphones-alt"></i>
           Search For A Song
@@ -34,7 +34,7 @@ class Search extends Component {
               onChange={this.handleChange}
             />
           </div>
-          <button type="submit" className="btn btn-lg px-5 btn-light">
+          <button type="submit" className="btn btn-lg px-5 btn-outline-light">
             <i className="fas fa-play mr-2"></i>Get Track Lyrics
           </button>
         </form>
