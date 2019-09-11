@@ -1,10 +1,14 @@
-import React, { Component } from "react";
-import Navbar from "./Navbar";
+import React from "react";
+import Search from "../track/Search";
+import Tracks from "../track/Tracks";
 
-class Index extends Component {
-  render() {
-    return <Navbar />;
-  }
-}
+const Index = () => {
+  return (
+    <React.Fragment>
+      <Search />
+      <Tracks />
+    </React.Fragment>
+  );
+};
 
 export default Index;

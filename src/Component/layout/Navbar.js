@@ -4,7 +4,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-dark bg-dark">
-        <h3 className="text-white mx-auto">LyricFinder</h3>
+        <h5 className="text-white mx-auto">
+          <i className="fas fa-play-circle mr-2"></i>LyricFinder
+        </h5>
       </nav>
     );
   }
