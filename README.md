@@ -4,4 +4,4 @@ lyrics are only 30%
 
 link to an application
 
-https://mighty-bastion-87542.herokuapp.com
+https://lyrics-finder-reactapp.herokuapp.com
